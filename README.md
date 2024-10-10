@@ -80,7 +80,7 @@ Pixie uses [Composer](http://getcomposer.org/doc/00-intro.md#installation-nix) t
 
 Learn to use composer and add this to require section (in your composer.json):
 
-    "usmanhalalit/pixie": "2.*@dev"
+    "ian-bd/pixie": "1.0"
 
 And run:
 
