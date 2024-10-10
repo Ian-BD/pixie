@@ -455,7 +455,7 @@ abstract class BaseAdapter
 
         // Separate our table and fields which are joined with a ".",
         // like my_table.id
-        $valueArr = explode('.', $value, 2);
+        $valueArr = explode('.', $value ?? [], 2);
 
         foreach ($valueArr as $key => $subValue) {
             // Don't wrap if we have *, which is not a usual field
